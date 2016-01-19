@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
+@extends('app')
+
+@section('content')
 <h1>Contact Me</h1>
-</body>
-</html>
+@stop
+
+@section('footer')
+	<script type="text/javascript">alert('Test Contact Javascript');</script>
+@stop
